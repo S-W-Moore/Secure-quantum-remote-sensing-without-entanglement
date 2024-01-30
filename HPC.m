@@ -29,10 +29,10 @@ reset(RandStream.getGlobalStream,sum(100*clock));
 %basis grid creation for range [0,2*pi)
 precisionRoot = 10;
 precision = 2^precisionRoot;
-%redeclared inside loops, commented here for clarity
-%phi = linspace(0,2*pi,precision+1);
-%dphi = phi(2)-phi(1);
-%phi(end) = [];
+%redeclared inside loops
+phi = linspace(0,2*pi,precision+1);
+dphi = phi(2)-phi(1);
+phi(end) = [];
 
 %shift on initial states from |X+>
 chi = 0;
