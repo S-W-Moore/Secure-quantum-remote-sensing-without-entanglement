@@ -34,6 +34,11 @@ precision = 2^precisionRoot;
 %dphi = phi(2)-phi(1);
 %phi(end) = [];
 
+%shift on initial states from |X+>
+chi = 0;
+%shift in Bob's measurement basis from |X+>, pi/2 is Y basis.
+eta = pi/2;
+
 %Number of qubits
 plotNumbers = [30,60,100,150];
 [~,plotNumbersNo] = size(plotNumbers);
