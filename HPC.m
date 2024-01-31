@@ -123,7 +123,7 @@ chi = 0;
 eta = pi/2;
 
 %number of photons calculated for
-%n = [50,200,1000];
+n = [50,200,1000];
 [~,nCount] = size(n);
 
 %array declaration
